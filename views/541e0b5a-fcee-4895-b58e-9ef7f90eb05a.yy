@@ -1,0 +1,53 @@
+{
+    "id": "541e0b5a-fcee-4895-b58e-9ef7f90eb05a",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "541e0b5a-fcee-4895-b58e-9ef7f90eb05a",
+    "children": [
+        "147ed560-e03e-4848-94a4-e9f983b5c9fd",
+        "158adf34-82b6-42e4-a27f-afb36c4f1a37",
+        "1464f510-c186-4efc-bf72-a5beb641049e",
+        "c8f37814-051d-4fc8-9483-dd4016a97a6d",
+        "80e79e94-3f82-4e7f-82b1-ce1a8c01e5ce",
+        "2b5dc429-7f47-442a-a22a-8bfda31cb462",
+        "47439442-1754-4f4f-9e78-cff5c4cbbe65",
+        "49ee5cbf-af4e-4f52-8f9d-5bb6fe276947",
+        "58cb8238-6dbf-4d95-a6c6-98b912d75adf",
+        "59efc7fb-62b5-4057-be86-de8fc2b9a05b",
+        "62ad4fde-386c-465a-93ed-2e9636671138",
+        "5d1a8344-c98a-45f2-b1d8-72d86ed842cd",
+        "64746224-ef89-4e21-addc-540716b21ae1",
+        "69a67491-44ce-4d34-a675-d4198ee1453a",
+        "6e50d4a6-cc45-413c-bd8b-e5c75c9e9ab8",
+        "5975ff47-c888-4c0f-b4ce-34e392e3532a",
+        "70d306e8-47c9-45bd-95c7-4f4fafd7f3d1",
+        "66869739-b0df-4075-8fc0-6ef5b09d0d07",
+        "7c524f40-0136-40e7-b282-50634e61b97e",
+        "7dce1544-8580-42d8-824d-150f871c51b8",
+        "8d2b9f7c-db31-4ade-b76b-b5600f4b9106",
+        "9c578f8b-f5c6-428a-b325-ea74d99fad8d",
+        "a1aa0182-cd67-43bd-a8ba-f9369cd28bc7",
+        "a093d51a-1fa8-4315-9878-d61ac500402a",
+        "762e231f-3be7-4722-b576-624c5192c3bf",
+        "b4dc1f11-3512-4595-9cae-7bc63535cea6",
+        "b29edab2-3249-491b-950a-fc874d9a79dc",
+        "b9c3b946-515e-4f7f-8f0e-687f9b63de18",
+        "ddf213c4-3b15-4239-8fd5-e826279caf61",
+        "c89f20fb-624a-43b6-b592-2f386b80432b",
+        "d699efb5-ea26-4ab9-b93a-0542e4a46c64",
+        "baac7a3e-aec6-4629-b3ec-6e34df21535d",
+        "fda9404e-3248-438f-8430-2c96de423bb6",
+        "f7da1725-b84a-4f74-8c63-2e6eaf7119fd",
+        "b3edf2f3-6296-415d-9a6e-ee482c2449ed",
+<<<<<<< HEAD
+        "048f182b-315a-45c4-8e56-138dc166f660",
+        "54e3a397-11d7-4552-b5f6-f6bf4a9ad61f"
+=======
+        "3cbcfdd1-00ba-4a54-8eda-4b4cd174cbc1"
+>>>>>>> origin/master
+    ],
+    "filterType": "GMObject",
+    "folderName": "objects",
+    "isDefaultView": false,
+    "localisedFolderName": "ResourceTree_Objects"
+}

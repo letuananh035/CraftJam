@@ -1,0 +1,81 @@
+///@desc custom_collision(right,left,down,up);
+///@arg right
+///@arg left
+///@arg down
+///@arg up
+
+var right = argument0;
+var left = argument1;
+var down = argument2;
+var up = argument3;
+
+if _x_speed > 0  bbox_side = bbox_right + right; else bbox_side = bbox_left + left;
+if (tilemap_get_at_pixel(tilemap,bbox_side+_x_speed,bbox_top) != 0) || (tilemap_get_at_pixel(tilemap,bbox_side+_x_speed, bbox_bottom) != 0)
+{
+	
+	if (_x_speed > 0) {
+		//x = x - (x % 32) mod returns remainder
+		//snaps to a 32 to 32 grid
+		x = x - (x mod 16) + 15 - (bbox_right - x);
+		if _bounce {
+		_x_speed = -(_x_speed)*bounce_amount_;
+		} else {
+		_x_speed = 0;
+
+		}
+		
+		}else{ x = x - (x mod 16) - (bbox_left - x);
+		if _bounce {
+		_x_speed = -(_x_speed)*bounce_amount_;
+		} else {
+		_x_speed = 0;
+		}
+
+}
+
+}else{
+x += _x_speed;
+
+}
+
+if place_meeting(x, y+_y_speed, collision_object_) {
+	if !place_meeting(x, y+sign(_y_speed), collision_object_) {
+		y += sign(_y_speed);
+	}
+	
+	if _bounce {
+		_y_speed = -(_y_speed)*bounce_amount_;
+	} else {
+		_y_speed = 0;
+	}
+	
+}
+
+
+//VERTICLE TILE COLLISIONS
+if (_y_speed > 0)  bbox_side = bbox_bottom + down; else bbox_side = bbox_top + up;
+if (tilemap_get_at_pixel(tilemap,bbox_left,bbox_side+_y_speed) != 0) || (tilemap_get_at_pixel(tilemap,bbox_right, bbox_side+_y_speed) != 0)
+{
+
+	if (_y_speed > 0) {
+		//x = x - (x % 32) mod returns remainder
+		//snaps to a 32 to 32 grid
+		y = y - (y mod 16) + 15 - (bbox_bottom - y );
+		if _bounce {
+		_y_speed = -(_y_speed)*bounce_amount_;
+		} else {
+		_y_speed = 0;
+		}
+		}else{ y = y - (y mod 16) - (bbox_top - y);
+		if _bounce {
+		_y_speed = -(_y_speed)*bounce_amount_;
+		} else {
+		_y_speed = 0;
+		}
+		
+}
+
+}else{
+
+y += _y_speed;
+}

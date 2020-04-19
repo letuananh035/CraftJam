@@ -1,0 +1,1 @@
+cutscene_object = o_cutscene_alien_lv_3_secret;

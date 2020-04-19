@@ -1,0 +1,36 @@
+choose(
+("Everyone is counting on you."),
+("You got this."),
+("You improve."),
+("Your skills sharpen."),
+("The dragon has met his match."),
+("Your breath calms."),
+("You fight wiser."),
+("Your focus sharpens."),
+("Your mind clears."),
+("You can do anything."),
+("You know he's no match for you."),
+("You predict his next move better."),
+("You have just improved."),
+("Everyone is counting on you."),
+("You stand back up"),
+("Nothing can stand in your way"),
+("You stand tall despite a few bruises"),
+("You are still standing."),
+("You breath calms."),
+("Your head remains high."),
+("You know you'll get it this time."),
+("One step closer to victory."),
+("You take a deep breath and try again."),
+("A strange forces keeps you from giving up."),
+("Your prediction improves."),
+("Your response time improves."),
+("You tighten your shoelaces."),
+("Your grip on your boomerang tightens."),
+("You push out distractions away."),
+("You improve."),
+
+
+
+
+);
