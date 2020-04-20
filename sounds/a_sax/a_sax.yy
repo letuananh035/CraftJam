@@ -1,14 +1,14 @@
 {
-    "id": "560f6901-02f6-4c3c-b458-3a90508a2664",
+    "id": "a6b68c82-6fa6-403c-91c2-46a160b3c5b9",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "a_boss_battle",
-    "audioGroupGuid": "3aafe9ee-c8fd-4752-84d7-5b7fb0bb2bf6",
+    "name": "a_sax",
+    "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
     "kind": 0,
     "preload": false,
     "sampleRate": 44100,
-    "type": 1,
+    "type": 0,
     "volume": 1
 }

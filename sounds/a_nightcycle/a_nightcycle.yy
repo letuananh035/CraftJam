@@ -1,9 +1,9 @@
 {
-    "id": "560f6901-02f6-4c3c-b458-3a90508a2664",
+    "id": "941e8b54-2eb9-4734-a165-b4054d6da081",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "a_boss_battle",
-    "audioGroupGuid": "3aafe9ee-c8fd-4752-84d7-5b7fb0bb2bf6",
+    "name": "a_nightcycle",
+    "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
     "kind": 0,
